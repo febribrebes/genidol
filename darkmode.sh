@@ -2,22 +2,22 @@ BLUE='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 local_ip=$(hostname -I | awk '{print $1}')
-echo -e "${BLUE}============================================================================${NC}"
-echo -e "${BLUE}============================================================================${NC}"
-echo -e "${BLUE}=========== kk  kk  ii  vv      vv ll    yy    yy  ==============${NC}"   
-echo -e "${BLUE}==========  kk kk   ii   vv    vv  ll      yy yy =============${NC}" 
-echo -e "${BLUE}=========   kkk     ii    vv  vv   ll       yy  ============${NC}"
-echo -e "${BLUE}=========   kk kk   ii     vvvv    ll       yy   ============${NC}"
-echo -e "${BLUE}=========   kk  kk  ii      vv     lllllll  yy    ============${NC}"
-echo -e "${BLUE}============================================================================${NC}"
-echo -e "${BLUE}========================= . Info 080000000000 ===========================${NC}"
-echo -e "${BLUE}============================================================================${NC}"
-echo -e "${BLUE}${NC}"
-echo -e "${BLUE}Autoinstall GenieACS.${NC}"
-echo -e "${BLUE}${NC}"
-echo -e "${BLUE}======================================================================================${NC}"
+echo -e "${RED}============================================================================${NC}"
+echo -e "${RED}============================================================================${NC}"
+echo -e "${RED}=========== kk  kk  ii  vv      vv ll    yy    yy  ==============${NC}"   
+echo -e "${RED}==========  kk kk   ii   vv    vv  ll      yy yy =============${NC}" 
+echo -e "${RED}=========   kkk     ii    vv  vv   ll       yy  ============${NC}"
+echo -e "${RED}=========   kk kk   ii     vvvv    ll       yy   ============${NC}"
+echo -e "${RED}=========   kk  kk  ii      vv     lllllll  yy    ============${NC}"
+echo -e "${RED}============================================================================${NC}"
+echo -e "${RED}========================= . Info 080000000000 ===========================${NC}"
+echo -e "${RED}============================================================================${NC}"
 echo -e "${RED}${NC}"
-echo -e "${BLUE}Sebelum melanjutkan, silahkan baca terlebih dahulu. Apakah anda ingin melanjutkan? (y/n)${NC}"
+echo -e "${RED}Otomatis GenieACS.${NC}"
+echo -e "${RED}${NC}"
+echo -e "${RED}======================================================================================${NC}"
+echo -e "${BLUE}${NC}"
+echo -e "${RED}Sebelum melanjutkan, silahkan baca terlebih dahulu. Apakah anda ingin melanjutkan? (y/n)${NC}"
 read confirmation
 
 if [ "$confirmation" != "y" ]; then
