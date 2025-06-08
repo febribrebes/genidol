@@ -9,7 +9,7 @@ apt install git curl -y
 git clone https://github.com/febribrebes/genidol
 ```
 ```
-cd genieacs
+cd genidol
 ```
 ```
 chmod +x install.sh && chmod +x darkmode.sh
